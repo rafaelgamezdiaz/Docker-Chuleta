@@ -25,13 +25,15 @@ Por ejemplo si buscamos la image de mongo, a la derecha se nos mostrará el coma
  docker pull mongo
 ```
 
-De esta forma se destaga mongo con el tag (versión) latets.
+De esta forma se destaga mongo con el tag (versión) latest.
 
 En los resultados de la búsqueda veremos además que se listan diferentes tags (o versiones de la imagen que se han subido). Si deseamos descargar alguna que no sea la oficial previamente descargada de la misma forma ejecutamos:
 
 ```markdown
   docker pull nombre_imagen:nombre_tag
 ```
+
+Notemos que si intentamos descargar una imagen que previamente hemos descargado se te nitificará en la consola que ya la hemos descargado.
 
 
 
@@ -49,6 +51,9 @@ Si deseamos listar por todas las imágenes de un tipo que hemos descargado, por 
 ```
 sudo docker images | grep mongo
 ```
+
+
+
 
 
 
