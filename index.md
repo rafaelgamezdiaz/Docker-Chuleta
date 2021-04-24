@@ -66,9 +66,15 @@ En una imagen personalizada podemos incluir diferentes imágenes. Para esto lo p
 ```
  FROM ubuntu
  
- RUN sudo apt update | sudo apt install -y mongodb
+ RUN sudo apt-get update | sudo apt-get install -y mongodb
  
 ```
+
+Este **Dockerfile** contiene las instrucciones para 
+
+ 1. Descargar la imagen de ununtu
+ 2. Actualizar el repositorio de ubuntu dentro del contenedor
+ 3. Instalar mongodb
 
 
 ##### Construir imagen
@@ -79,7 +85,7 @@ Para construr una imagen tomando como referencia un ***Dockerfile***
  docker build --tag mongo-img .
 ```
 
-En este caso en el final del comnado se coloc'o un punto, Esto es para indicarle a docker que el Dockerfile se encuentra en la carpeta actual.
+En este caso en el final del comnado se colocó un punto, Esto es para indicarle a docker que el Dockerfile se encuentra en la carpeta actual.
 
 
 
