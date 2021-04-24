@@ -33,7 +33,7 @@ En los resultados de la búsqueda veremos además que se listan diferentes tags 
   docker pull nombre_imagen:nombre_tag
 ```
 
-Notemos que si intentamos descargar una imagen que previamente hemos descargado se te nitificará en la consola que ya la hemos descargado.
+Notemos que si intentamos descargar una imagen que previamente hemos descargado se te notificará en la consola que ya la hemos descargado. Se descargaran solamente aquellas capas de la imagen que no se han descargado.
 
 
 
@@ -49,10 +49,13 @@ Si deseamos listar por todas las imágenes de un tipo que hemos descargado, por 
 
 
 ```
-sudo docker images | grep mongo
+ sudo docker images | grep mongo
 ```
 
 
+##### Imágenes colgadas
+
+Se generan cuando intentamos descargar una imagen previamente descargada y que tiene el mismo nombre. En ese caso al descargarse, la versión más vieja se le cambia el nombre a <none>, que lo más probable es que tendrá el mismo peso que la nueva imagen.
 
 
 
