@@ -222,7 +222,7 @@ La información que se alamcena dentro de un contenedor se pierde en el caso de 
  sudo docker run -d -p 27020:27017 -v /ruta_carpeta_local:/data/db --name myDb mongo
 ```
 
-
+De esta forma si dentro del contenedor creamos una base de datos y almacenamos información la misma será persistente ya que se está alamacenando en la carpeta local. Si detememos y elimianmos el contenedor, al volverlo a levantar al acceder nuevamente a la base de datos tendremos los registros que hemos almacenado previamente en la misma.
 
 
 
