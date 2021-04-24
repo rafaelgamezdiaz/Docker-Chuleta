@@ -5,7 +5,7 @@ No soy un experto en Docker, aquí tan solo dejo unas notas y comandos que puede
 
 
 
-#### Dockerhub
+##### Dockerhub
 
 Dockerhub es el sitio oficial donde se almacenan las imágenes de Docker. Allí puedes encontrar imágenes oficiales y no oficiales. Incluso tu mismo puedes subir tus imágenes docker.
 
@@ -14,7 +14,7 @@ Dockerhub es el sitio oficial donde se almacenan las imágenes de Docker. Allí 
 
 
 
-### Descargar imagen de Dockerhub
+##### Descargar imagen de Dockerhub
 
 Buscamos en el sitio de [Dockerhub](https://hub.docker.com/) el nombre de la imagen que necesitamos. Al mostrarse los resultados veremos que ala derecha aparecerá el comando para descargar la imagen. 
 
