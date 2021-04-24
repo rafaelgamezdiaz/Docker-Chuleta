@@ -1,10 +1,10 @@
-## Docker Fast Notes
+## Docker: Notas Rápidas
 
-I am not an expert in Docker, these are notes and commands that I write for myself and hopefully they can also be of use to others.
+No soy un experto en Docker, aquí tan solo dejo unas notas y comandos que escribo para mi mismo como recordatorio y que además estaré doblemente complacido si pueden ser de utilidad para otros.
 
 ### Dockerhub
 
-Official site where are stored docker images. There are official and no official images. You also can upload your own images.
+Dockerhub es el sitio oficial donde se almacenan las imágenes de Docker. Allí puedes encontrar imágenes oficiales y no oficiales. Incluso tu mismo puedes subir tus imágenes docker.
 
 [Dockerhub](https://hub.docker.com/)
 
