@@ -110,7 +110,7 @@ En este caso en el final del comnado se colocó un punto, Esto es para indicarle
 
 ## Contenedores
 
-#### Correr el contenedor 
+##### Correr el contenedor 
 
 ``` 
  sudo docker run mongo-img
@@ -135,7 +135,7 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 
 
 
-#### Listar los contenedores que se están ejecutando
+##### Listar los contenedores que se están ejecutando
 
 ```
  sudo docker ps
@@ -144,7 +144,7 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 
 
 
-#### Listar todos los contenedores que han sido ejecutados en elgún momento
+##### Listar todos los contenedores que han sido ejecutados en elgún momento
 
 ```
  sudo docker ps -a
@@ -153,7 +153,7 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 
 
 
-#### Ver los Logs del contenedor
+##### Ver los Logs del contenedor
 
 ```
  sudo docker logs nombre_contenedor
@@ -162,7 +162,7 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 
 
 
-#### Conectándonos a través de un puerto (ejemplo de contenedor de Mongo en ejecución)
+##### Conectándonos a través de un puerto (ejemplo de contenedor de Mongo en ejecución)
 
 Si ya se está ejecutando una instancia de del contenedor, como en este ejemplo un contendor de mongo
 
@@ -175,7 +175,7 @@ Automáticamente con ese comando deberíamos estar dentro de la base de datos.
 
 
 
-#### Detener la ejecución de un contenedor
+##### Detener la ejecución de un contenedor
 
 Para detener la ejecución de un contenedor podemos pasarle el __id__ del contenedor (completo o los 3 primeros caracteres), o el __nombre del contenedor__
 
@@ -192,7 +192,7 @@ Si queremos por otra parte detener la ejecución de todos los contenedores que s
 
 
 
-#### Eliminar un contenedor
+##### Eliminar un contenedor
 
 Para eliminar un contendor primero debemos cerciorarnos de que el mismo no se está ejecutando. Una vez comprobemos que es así procedemos a ejecutar el comando
 
