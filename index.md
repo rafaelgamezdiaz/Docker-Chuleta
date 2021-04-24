@@ -1,4 +1,4 @@
-## Introducción
+## Introducción :sunglasses:
 
 No soy un experto en Docker, aquí tan solo dejo unas notas y comandos que escribo para mi mismo como recordatorio y que además estaré doblemente complacido si pueden ser de utilidad para otros.
 
@@ -30,6 +30,13 @@ En los resultados de la búsqueda veremos además que se listan diferentes tags 
   docker pull nombre_imagen:nombre_tag
 ```
 
+## Imagenes Docker
+
+###### Listar imágenes
+
+```
+sudo docker images`` 
+```
 
 **Bold** and _Italic_ and `Code` text
 
