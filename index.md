@@ -32,10 +32,10 @@ En los resultados de la búsqueda veremos además que se listan diferentes tags 
 
 ## Imagenes Docker
 
-###### Listar imágenes
+##### Listar imágenes
 
 ```
-sudo docker images`` 
+ sudo docker images
 ```
 
 **Bold** and _Italic_ and `Code` text
