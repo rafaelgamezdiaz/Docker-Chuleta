@@ -1,6 +1,6 @@
-## Introducción :sunglasses:
+## Introducción 
 
-No soy un experto en Docker, aquí tan solo dejo unas notas y comandos que escribo para mi mismo como recordatorio y que además estaré doblemente complacido si pueden ser de utilidad para otros.
+No soy un experto en Docker :sunglasses:, aquí tan solo dejo unas notas y comandos que escribo para mi mismo como recordatorio y que además estaré doblemente complacido si pueden ser de utilidad para otros.
 
 ## Dockerhub
 
