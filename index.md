@@ -102,16 +102,41 @@ En este caso en el final del comnado se colocó un punto, Esto es para indicarle
 ```  
 De esta formal el contenedor va a morir una vez que se levanta. Es por eso que se deben especificar algunos comandos más que veremos a continuación.
 
-
-
-#### Conectandonos a través de un puerto
-
 Sigamos ejemplificando con el caso de un contenedor de Mongo. Por default para Mongo utiliza el puerto 27017. Ese el el puerto que en principio se utulizará dentro del contenedor para conectarse a Mongo. Sin embargo fuera de la instancia del contenedor debemos especificar el puerto a través del cual nos vamos a conectar. Para eso se utiliza el tag **-p #puerto**. Podemos utilizar el mismo puerto 27017 para conectarnos externamente o como en este ejemplo que mostramos estamos utilizando otrs puerto para la conexión.
 
 Además podemos colocarle un nombre al contenedor utilizando el tag **--name**.
 ```
  sudo docker run -p 27117:27017 --name myDatabase mongo-img
 ```
+
+Ya con esto debería estar ejecutandose la instancia de docker donde se está ejecutando mongo.
+
+
+
+#### Listar los contenedores que se están ejecutando
+
+```
+ sudo docker ps
+```
+
+
+#### Listar todos los contenedores que han sido ejecutados en elgún momento
+
+```
+ sudo docker ps -a
+```
+
+
+#### Conectándonos a través de un puerto (ejemplo de contenedor de Mongo en ejecución)
+
+Si ya se está ejecutando una instancia de del contenedor, como en este ejemplo un contendor de mongo
+
+```
+ mongo localhost:27117
+```
+
+Automáticamente con ese comando deberíamos estar dentro de la base de datos.
+
 
 
 
