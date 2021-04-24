@@ -1,6 +1,6 @@
 ## Introducción 
 
-No soy un experto en Docker, aquí tan solo dejo unas notas y comandos que escribo que pueden servir como consultas rápidas o como recordatorio. Estaré doblemente complacido si pueden ser de utilidad para otros.
+No soy un experto en Docker, aquí tan solo dejo unas notas y comandos que pueden servir como consultas rápidas o como recordatorio. Estaré doblemente complacido si pueden ser de utilidad para otros.
 
 
 
