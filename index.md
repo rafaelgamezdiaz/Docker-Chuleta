@@ -10,16 +10,24 @@ Dockerhub es el sitio oficial donde se almacenan las imágenes de Docker. Allí 
 
 ### Descargar imagen de Dockerhub
 
-Buscamos en el sitio de [Dockerhub](https://hub.docker.com/) el nombre de la imagen que necesitamos. Al mostrarse los resultados veremos que ala derecha aparecerá el comando para descargar la imagen. Por ejemplo si buscamos la image de mongo, a la derecha se nos mostrará el comando:
+Buscamos en el sitio de [Dockerhub](https://hub.docker.com/) el nombre de la imagen que necesitamos. Al mostrarse los resultados veremos que ala derecha aparecerá el comando para descargar la imagen. 
+
+```markdown
+ docker pull nombre_imagen
+```
+
+Por ejemplo si buscamos la image de mongo, a la derecha se nos mostrará el comando:
 
 ```markdown
  docker pull mongo
 ```
 
+De esta forma se destaga mongo con el tag (versión) latets.
+
 En los resultados de la búsqueda veremos además que se listan diferentes tags (o versiones de la imagen que se han subido). Si deseamos descargar alguna que no sea la oficial previamente descargada de la misma forma ejecutamos:
 
 ```markdown
-  docker pull nombre_tag
+  docker pull nombre_imagen:nombre_tag
 ```
 
 
