@@ -55,15 +55,9 @@ Si deseamos listar por todas las imágenes de un tipo que hemos descargado, por 
 
 ##### Imágenes colgadas
 
-Se generan cuando intentamos descargar una imagen previamente descargada y que tiene el mismo nombre. En ese caso al descargarse, la versión más vieja se le cambia el nombre a <none>, que lo más probable es que tendrá el mismo peso que la nueva imagen.
+Se generan cuando intentamos descargar una imagen previamente descargada y que tiene el mismo nombre. En ese caso al descargarse, la versión más vieja se le cambia el nombre del tag a <none>, que lo más probable es que tendrá el mismo peso que la nueva imagen.
 
 
-
-
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 
 `
 
