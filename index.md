@@ -1,30 +1,27 @@
-## Docker: Notas Rápidas
+## Introducción
 
 No soy un experto en Docker, aquí tan solo dejo unas notas y comandos que escribo para mi mismo como recordatorio y que además estaré doblemente complacido si pueden ser de utilidad para otros.
 
-### Dockerhub
+## Dockerhub
 
 Dockerhub es el sitio oficial donde se almacenan las imágenes de Docker. Allí puedes encontrar imágenes oficiales y no oficiales. Incluso tu mismo puedes subir tus imágenes docker.
 
 [Dockerhub](https://hub.docker.com/)
 
+### Descargar imagen de Dockerhub
 
-
-
-
-
-
-### Markdown Legend
+Buscamos en el sitio de [Dockerhub](https://hub.docker.com/) el nombre de la imagen que necesitamos. Al mostrarse los resultados veremos que ala derecha aparecerá el comando para descargar la imagen. Por ejemplo si buscamos la image de mongo, a la derecha se nos mostrará el comando:
 
 ```markdown
-code
+ docker pull mongo
 ```
 
-- Bulleted
-- List
+En los resultados de la búsqueda veremos además que se listan diferentes tags (o versiones de la imagen que se han subido). Si deseamos descargar alguna que no sea la oficial previamente descargada de la misma forma ejecutamos:
 
-1. Numbered
-2. List
+```markdown
+  docker pull nombre_tag
+```
+
 
 **Bold** and _Italic_ and `Code` text
 
