@@ -24,7 +24,8 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-```
+
+```markdown
 if(here){
   // TODO Do something
 }```
