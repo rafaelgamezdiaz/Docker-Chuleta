@@ -95,7 +95,7 @@ En este caso en el final del comnado se colocó un punto, Esto es para indicarle
 ```
 
 
-#### Probar el contenedor 
+#### Correr el contenedor 
 
 ``` 
  sudo docker run mongo-img
@@ -110,6 +110,12 @@ Además podemos colocarle un nombre al contenedor utilizando el tag **--name**.
 ```
 
 Ya con esto debería estar ejecutandose la instancia de docker donde se está ejecutando mongo.
+
+Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si cerramos la terminar se detendría la ejecución del mismo. Para hacer que se siga ejecutando en segundo plano debemos agregar el tag **-d** 
+
+```
+ sudo docker run -d -p 27117:27017 --name myDatabase mongo-img
+```
 
 
 
