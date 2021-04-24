@@ -100,11 +100,10 @@ En este caso en el final del comnado se colocó un punto, Esto es para indicarle
 ``` 
  sudo docker run mongo-img
 ```  
-De esta formal el contenedor va a morir
+De esta formal el contenedor va a morir una vez que se levanta.
 
 
-#####
- __En proceso ...__
+
 
 
 
