@@ -6,7 +6,7 @@ I am not an expert in Docker, these are notes and commands that I write for myse
 
 Official site where are stored docker images. There are official and no official images. You also can upload your own images.
 
-    [Dockerhub](https://hub.docker.com/)
+[Dockerhub](https://hub.docker.com/)
 
 
 
@@ -19,10 +19,6 @@ Official site where are stored docker images. There are official and no official
 ```markdown
 code
 ```
-
-# Header 1
-## Header 2
-### Header 3
 
 - Bulleted
 - List
