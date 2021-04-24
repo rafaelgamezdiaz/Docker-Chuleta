@@ -82,10 +82,31 @@ Este **Dockerfile** contiene las instrucciones para
 Para construr una imagen tomando como referencia un ***Dockerfile***
 
 ```
- docker build --tag mongo-img .
+ sudo docker build --tag mongo-img .
 ```
 
 En este caso en el final del comnado se colocó un punto, Esto es para indicarle a docker que el Dockerfile se encuentra en la carpeta actual.
+
+
+##### Ver las capas de la imagen que se crearon 
+
+```
+ sudo docker history -H mongo-img
+```
+
+
+#### Probar el contenedor 
+
+``` 
+ sudo docker run mongo-img
+```  
+De esta formal el contenedor va a morir
+
+
+
+
+
+
 
 
 
