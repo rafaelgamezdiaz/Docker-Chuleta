@@ -162,22 +162,21 @@ Para detener la ejecución de un contenedor podemos pasarle el __id__ del conten
  sudo docker stop id_contenedor
 ```
 
+Si queremos por otra parte detener la ejecución de todos los contenedores que se estén ejecutando
+
+```
+ sudo docker stop $(sudo docker ps -aq)
+```
 
 
 
+#### Eliminar un contenedor
 
+Para eliminar un contendor primero debemos cerciorarnos de que el mismo no se está ejecutando. Una vez comprobemos que es así procedemos a ejecutar el comando
 
-
-
-
-
-
-
-
-
-
-
-
+```
+ sudo docker rm $(sudo docker ps -aq)
+```
 
 
 
