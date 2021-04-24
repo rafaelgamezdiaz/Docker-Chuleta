@@ -4,11 +4,14 @@ No soy un experto en Docker, aquí tan solo dejo unas notas y comandos que puede
 
 
 
-## Dockerhub
+
+#### Dockerhub
 
 Dockerhub es el sitio oficial donde se almacenan las imágenes de Docker. Allí puedes encontrar imágenes oficiales y no oficiales. Incluso tu mismo puedes subir tus imágenes docker.
 
 [Dockerhub](https://hub.docker.com/)
+
+
 
 
 ### Descargar imagen de Dockerhub
@@ -37,6 +40,7 @@ Notemos que si intentamos descargar una imagen que previamente hemos descargado 
 
 
 
+
 ## Imagenes Docker
 
 ##### Listar imágenes
@@ -53,9 +57,12 @@ Si deseamos listar por todas las imágenes de un tipo que hemos descargado, por 
 ```
 
 
+
+
 ##### Imágenes colgadas
 
 Se generan cuando intentamos descargar una imagen previamente descargada y que tiene el mismo nombre. En ese caso al descargarse, la versión más vieja se le cambia el nombre del tag a \< none \>, que lo más probable es que tendrá el mismo peso que la nueva imagen.
+
 
 
 
@@ -77,6 +84,8 @@ Este **Dockerfile** contiene las instrucciones para
  3. Instalar mongodb
 
 
+
+
 ##### Construir imagen
 
 Para construr una imagen tomando como referencia un ***Dockerfile***
@@ -88,11 +97,15 @@ Para construr una imagen tomando como referencia un ***Dockerfile***
 En este caso en el final del comnado se colocó un punto, Esto es para indicarle a docker que el Dockerfile se encuentra en la carpeta actual.
 
 
+
+
 ##### Ver las capas de la imagen que se crearon 
 
 ```
  sudo docker history -H mongo-img
 ```
+
+
 
 
 #### Correr el contenedor 
@@ -119,11 +132,14 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 
 
 
+
 #### Listar los contenedores que se están ejecutando
 
 ```
  sudo docker ps
 ```
+
+
 
 
 #### Listar todos los contenedores que han sido ejecutados en elgún momento
@@ -133,11 +149,14 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 ```
 
 
+
+
 #### Ver los Logs del contenedor
 
 ```
  sudo docker logs nombre_contenedor
 ```
+
 
 
 
@@ -167,6 +186,7 @@ Si queremos por otra parte detener la ejecución de todos los contenedores que s
 ```
  sudo docker stop $(sudo docker ps -aq)
 ```
+
 
 
 
