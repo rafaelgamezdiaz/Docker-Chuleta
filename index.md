@@ -5,7 +5,8 @@ No soy un experto en Docker, aquí tan solo dejo unas notas y comandos que puede
 
 
 
-##### Dockerhub
+
+###### Dockerhub
 
 Dockerhub es el sitio oficial donde se almacenan las imágenes de Docker. Allí puedes encontrar imágenes oficiales y no oficiales. Incluso tu mismo puedes subir tus imágenes docker.
 
@@ -43,7 +44,7 @@ Notemos que si intentamos descargar una imagen que previamente hemos descargado 
 
 ## Imagenes Docker
 
-##### Listar imágenes
+###### Listar imágenes
 
 ```
  sudo docker images
@@ -59,14 +60,14 @@ Si deseamos listar por todas las imágenes de un tipo que hemos descargado, por 
 
 
 
-##### Imágenes colgadas
+###### Imágenes colgadas
 
 Se generan cuando intentamos descargar una imagen previamente descargada y que tiene el mismo nombre. En ese caso al descargarse, la versión más vieja se le cambia el nombre del tag a \< none \>, que lo más probable es que tendrá el mismo peso que la nueva imagen.
 
 
 
 
-##### Creando nuestras propias imágenes (Dockerfile)
+###### Creando nuestras propias imágenes (Dockerfile)
 
 En una imagen personalizada podemos incluir diferentes imágenes. Para esto lo primero que tenemos que hacer es crear un **DockerFile**. Veamos la estructura básica de un Dockerfile.
 
@@ -86,7 +87,7 @@ Este **Dockerfile** contiene las instrucciones para
 
 
 
-##### Construir imagen
+###### Construir imagen
 
 Para construr una imagen tomando como referencia un ***Dockerfile***
 
@@ -99,7 +100,7 @@ En este caso en el final del comnado se colocó un punto, Esto es para indicarle
 
 
 
-##### Ver las capas de la imagen que se crearon 
+###### Ver las capas de la imagen que se crearon 
 
 ```
  sudo docker history -H mongo-img
@@ -110,7 +111,7 @@ En este caso en el final del comnado se colocó un punto, Esto es para indicarle
 
 ## Contenedores
 
-##### Correr el contenedor 
+###### Correr el contenedor 
 
 ``` 
  sudo docker run mongo-img
@@ -135,7 +136,7 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 
 
 
-##### Listar los contenedores que se están ejecutando
+###### Listar los contenedores que se están ejecutando
 
 ```
  sudo docker ps
@@ -144,7 +145,7 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 
 
 
-##### Listar todos los contenedores que han sido ejecutados en elgún momento
+###### Listar todos los contenedores que han sido ejecutados en elgún momento
 
 ```
  sudo docker ps -a
@@ -153,7 +154,7 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 
 
 
-##### Ver los Logs del contenedor
+###### Ver los Logs del contenedor
 
 ```
  sudo docker logs nombre_contenedor
@@ -162,7 +163,7 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 
 
 
-##### Conectándonos a través de un puerto (ejemplo de contenedor de Mongo en ejecución)
+###### Conectándonos a través de un puerto (ejemplo de contenedor de Mongo en ejecución)
 
 Si ya se está ejecutando una instancia de del contenedor, como en este ejemplo un contendor de mongo
 
@@ -175,7 +176,7 @@ Automáticamente con ese comando deberíamos estar dentro de la base de datos.
 
 
 
-##### Detener la ejecución de un contenedor
+###### Detener la ejecución de un contenedor
 
 Para detener la ejecución de un contenedor podemos pasarle el __id__ del contenedor (completo o los 3 primeros caracteres), o el __nombre del contenedor__
 
@@ -192,7 +193,7 @@ Si queremos por otra parte detener la ejecución de todos los contenedores que s
 
 
 
-##### Eliminar un contenedor
+###### Eliminar un contenedor
 
 Para eliminar un contendor primero debemos cerciorarnos de que el mismo no se está ejecutando. Una vez comprobemos que es así procedemos a ejecutar el comando
 
@@ -211,5 +212,5 @@ Para eliminar un contendor primero debemos cerciorarnos de que el mismo no se es
 
 `
 
-### Rafael Gamez Diaz
+#### Rafael Gamez Diaz
 2021
