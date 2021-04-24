@@ -133,6 +133,14 @@ Sin embargo de esta forma el contenedor se queda corriendo en la terminal y si c
 ```
 
 
+#### Ver los Logs del contenedor
+
+```
+ sudo docker logs nombre_contenedor
+```
+
+
+
 #### Conectándonos a través de un puerto (ejemplo de contenedor de Mongo en ejecución)
 
 Si ya se está ejecutando una instancia de del contenedor, como en este ejemplo un contendor de mongo
