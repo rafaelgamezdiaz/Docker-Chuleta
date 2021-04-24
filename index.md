@@ -1,6 +1,6 @@
 ## Introducción 
 
-No soy un experto en Docker :sunglasses:, aquí tan solo dejo unas notas y comandos que escribo para mi mismo como recordatorio y que además estaré doblemente complacido si pueden ser de utilidad para otros.
+No soy un experto en Docker, aquí tan solo dejo unas notas y comandos que escribo para mi mismo como recordatorio y que además estaré doblemente complacido si pueden ser de utilidad para otros.
 
 ## Dockerhub
 
@@ -37,6 +37,16 @@ En los resultados de la búsqueda veremos además que se listan diferentes tags 
 ```
  sudo docker images
 ```
+
+Si deseamos listar por todas las imágenes de un tipo que hemos descargado, por ejemplo las imágenes de mongo escribimos
+
+
+```
+sudo docker images | grep mongo
+```
+
+
+
 
 **Bold** and _Italic_ and `Code` text
 
