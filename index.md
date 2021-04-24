@@ -64,8 +64,19 @@ Se generan cuando intentamos descargar una imagen previamente descargada y que t
 En una imagen personalizada podemos incluir diferentes imágenes. Para esto lo primero que tenemos que hacer es crear un **DockerFile**. Veamos la estructura básica de un Dockerfile.
 
 ```
-FROM ubuntu
+ FROM ubuntu
 ```
+
+
+##### Construir imagen
+
+Para construr una imagen tomando como referencia un ***Dockerfile***
+
+```
+ docker build
+```
+
+
 
 
 
