@@ -154,7 +154,13 @@ Automáticamente con ese comando deberíamos estar dentro de la base de datos.
 
 
 
+#### Detener la ejecución de un contenedor
 
+Para detener la ejecución de un contenedor podemos pasarle el __id__ del contenedor (completo o los 3 primeros caracteres), o el __nombre del contenedor__
+
+``` 
+ sudo docker stop id_contenedor
+```
 
 
 
