@@ -25,7 +25,7 @@ Por ejemplo si buscamos la image de mongo, a la derecha se nos mostrará el coma
  docker pull mongo
 ```
 
-De esta forma se destaga mongo con el tag (versión) latest.
+De esta forma se descarga mongo con el tag (versión) latest.
 
 En los resultados de la búsqueda veremos además que se listan diferentes tags (o versiones de la imagen que se han subido). Si deseamos descargar alguna que no sea la oficial previamente descargada de la misma forma ejecutamos:
 
@@ -55,7 +55,7 @@ Si deseamos listar por todas las imágenes de un tipo que hemos descargado, por 
 
 ##### Imágenes colgadas
 
-Se generan cuando intentamos descargar una imagen previamente descargada y que tiene el mismo nombre. En ese caso al descargarse, la versión más vieja se le cambia el nombre del tag a <none>, que lo más probable es que tendrá el mismo peso que la nueva imagen.
+Se generan cuando intentamos descargar una imagen previamente descargada y que tiene el mismo nombre. En ese caso al descargarse, la versión más vieja se le cambia el nombre del tag a \< none \>, que lo más probable es que tendrá el mismo peso que la nueva imagen.
 
 
 
