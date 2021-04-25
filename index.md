@@ -229,5 +229,4 @@ De esta forma si dentro del contenedor creamos una base de datos y almacenamos i
 
 `
 
-#### Rafael Gamez Diaz
-2021
+#### 2021
