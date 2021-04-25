@@ -226,7 +226,3 @@ De esta forma si dentro del contenedor creamos una base de datos y almacenamos i
 
 
 
-
-`
-
-#### 2021
